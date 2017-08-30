@@ -1,0 +1,81 @@
+.header a {
+  text-decoration: none;
+}
+
+.header a p{
+  margin-top: 7px;
+  font-size: 0.8em;
+  color: black;
+}
+
+.apps, .notifications, .header a {
+  float: right;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.apps, .notifications {
+  width: 30px;
+  height: 30px;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+
+}
+
+.apps {
+  background-position-x: -132px;
+  background-position-y: -38px;
+}
+.notifications {
+  background-position-x: 3px;
+  background-position-y: -2px;
+}
+
+.logo {
+  padding-top: 190px;
+  padding-left: 40%;
+}
+
+.logo-subtext {
+  color: blue;
+  font-family: arial;
+  position: relative;
+  top: -40px;
+  left: 215px;
+}
+form {
+  text-align: center;
+}
+
+input {
+  position: relative;
+  height: 30px;
+  width: 40%;
+  top: -40px;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 11px -5px rgba(0, 0, 0, 0.75);
+}
+input:hover {
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 11px -3px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+.button p {
+  font-family: arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  color: #505050;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 0.5px solid white;
+}
+
+.button p:hover {
+  color: black;
+  border: 0.5px solid grey;
+}
