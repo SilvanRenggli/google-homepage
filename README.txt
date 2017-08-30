@@ -1,0 +1,1 @@
+The goal of this project is to train my skills in HTML and CSS, that I used so far, by copying the style of the google homepage.
