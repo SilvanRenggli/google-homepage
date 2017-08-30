@@ -2,6 +2,9 @@
   text-decoration: none;
 }
 
+.header a:hover {
+  text-decoration: underline;
+}
 .header a p{
   margin-top: 7px;
   font-size: 0.8em;
@@ -48,14 +51,17 @@ form {
 
 input {
   position: relative;
-  height: 30px;
-  width: 40%;
-  top: -40px;
-  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  height: 25px;
+  font-family: arial, sans-serif;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  width: 37%;
+  top: -30px;
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
   box-shadow: 2px 2px 11px -5px rgba(0, 0, 0, 0.75);
 }
 input:hover {
-  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
   box-shadow: 2px 2px 11px -3px rgba(0, 0, 0, 0.75);
 }
 
@@ -78,4 +84,38 @@ input:hover {
 .button p:hover {
   color: black;
   border: 0.5px solid grey;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: #f7f7f7;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-width: 1px 0 0 0;
+}
+.footer p {
+  font-family: arial, sans-serif;
+  font-size: 0.85em;
+  padding: 0px 20px;
+  position: relative;
+  bottom: 3px;
+  color: #505050;
+}
+.footer-l {
+  display: inline-block;;
+  float:left;
+}
+.footer-r {
+  display: inline-block;;
+  float:right;
+}
+
+.footer a {
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
